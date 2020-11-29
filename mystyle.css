@@ -1,0 +1,32 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  }
+
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
