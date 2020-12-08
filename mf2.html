@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Demo - Responsive site</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #ffa500;
+  padding: 10px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.leftside {
+  width: 20%;
+}
+.column.rightside {
+  width: 2%;
+}
+/* Middle column */
+.column.middle {
+  width: 78%;
+  background-color: LightBlue;
+  font-size: 22px;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.left,.column.right, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <h1><a href="index.html">Home</a></h1>
+  <h1><a href="blogs.html">Blogs</a></h1>
+ </div>
+<div class="row">
+  <div class="column leftside">
+     <p>
+         <img src="eqmf.jpg" alt="Pic not found" width=100%>
+    </p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Equity Mutual Funds</h2>
+    
+<p>Equity Mutal Funds are a good option for investors, who lack the knowledge and / or time to invest directly in the Stock Market. They are regulated by the Securities and Exchange Board of India (SEBI), just like Banks are regulated by RBI.</p> 
+
+<p>Though there are different mutual funds like Equity, Debt, Hybrid, Gold, Foreign equity etc., this article will focus only on Equity Funds which invest in the Indian Equity market.
+
+<p>Mutal fund assets consist of a basket of shares. Performance or Returns of the Fund is linked to the performance of the underlying stocks. If the price of stocks goes up, the value (i.e. NAV) of the fund goes up and it will go down if the price of stocks goes down.</p>
+
+<p>Some Mutual Funds are linked to an Index - e.g. Nifty 50, Sensex. They are called Index funds. They will always invest only in the Index Stocks (like Nifty 50) in the same proportion as in the Index.</p>
+
+<p>Other funds have broad classifications like Large Cap Funds, Mid Cap Funds, Small Cap funds. As the name suggests, they invest in companies bleonging to the respective category. Sebi has clearly defined the various categories.</p>
+
+<p>Some others funds are based on sectors - e.g. an IT Fund will only invest in IT Companies, a Pharma Fund will only invest in Pharma companies etc.</p>
+
+<p>Then there a thematic funds like Consumption, Ethical, environmentally friendly et. e.g. an ethical fund will not invest in cigarette companies , liquor companies etc.</p>
+
+<p>There are also some Hybrid funds which have a mix of Equity and Debt instruments in various proportions.</p>
+
+<p>Newbies can start by investing in Equity Index funds. The performance of these funds will follow the behaviour of Nifty or Sensex</p>
+
+<h2>How to Invest ?</h2>
+
+<p>Mutual Funds are managed by Asset Management Companies (AMCs) promoted by leading financial services companies. e.g. HDFC, Birla, Tata, ICICI, SBI, Kotak etc. For each Fund, they offer a "Direct plan" and a "Regular plan". Direct plans give you a better return than the Regular Plan, as thier expenses are lower.</p>
+
+<p>If you are familiar with internet banking, you can invest in the "Direct Plan" of any mutual fund. Otherise you can visit the office of Registrars like CAMS and Karvy or the respective fund house itself.</p>
+
+<p>Mutual Fund Agents and Distributors offer the "Regular Plan". Regular plans have a slighly higher cost to compensate the agent/distributor their services. Hence your return will be lower than that of a "Direct Plan". In addition to individual agents, many Banks, brokers and other financial services companies also sell "Regular plans". Check if they have any additional charges, before you invest with them. Some of them also charge a "sales load" over above the cost of "Regular plan" funds. You can ask for thier AMFI/SEBI regisitration, if you want.</p>
+
+<p>Investments can be done in a lumpsum or periodically over several month or years. If you get a bonus from your employer, you can invest the lumpsum amount on a single day. Alternatively you can divide the total sum by 12, 24 or 36. Then invest the divided amount every month on a fixed date. This is called a SIP (systematic Investment plan).</p>
+
+<h2>Which Fund to select ?</h2>
+
+<p>This depends on your financial goals, age etc. You can read up several articles which appear in financial newspapers and media or consult a Registered Investment Advisor (RIA). They will charge you professional fees for their advice. You can ask for their SEBI registration details.</p>
+
+<h2>Tax on Equity Mutal funds</h2>
+
+<p>Mutal Funds can give your dividends and capital gains</p>
+
+<p>Dividends earned from Mutual Funds are fully taxed as per your slab rate</p>
+
+<p>Capital gains from Equity Mutual funds are taxed at 15 percent if they have been held for less than 12 months. They are taxed at 15 percent if they are held for more than 12 months, with no tax for the first one lakh of long term capital gains. e.g. if you earn a  long term capital gain of 3 lakhs, you will be taxed only on 2 lakhs. One lakh is exempt.
+
+<p>Please note the tax rules are different for non-Indian Equity mutual funds.</p>
+
+<h2>Happy Investing !</h2>
+</div>
+  
+  <div class="column rightside">
+    <p>
+         <!--<img src="bluebell.jpeg" alt="Pic not found" width=100%>-->
+         <!--<img src="flowerplant.jpeg" alt="Pic not found" width=100%>-->
+    </p>
+  </div>
+</div>
+  <h1><center><a href="blogs.html">Back to Blogs</a></center></h1>
+</body>
+</html>
