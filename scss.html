@@ -1,48 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="/sun.ico">
+<title>Equity Mutual Funds</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #ffa500;
+  padding: 10px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
 .column {
   float: left;
+  padding: 10px;
 }
 
 /* Left and right column */
-.column.side {
-  width: 25%;
+.column.leftside {
+  width: 20%;
 }
-
+.column.rightside {
+  width: 2%;
+}
 /* Middle column */
 .column.middle {
-  width: 50%;
+  width: 78%;
+  background-color: LightBlue;
+  font-size: 22px;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column.side, .column.middle {
+  .column.left,.column.right, .column.middle {
     width: 100%;
   }
 }
-div {
-  background-color: none;
-  width:auto;
-  margin: auto;
-  text-align: justify;
-}
-p {
-  font-size: 20px;
-}
-h1 {
-    text-align: center;
-  }
 </style>
 </head>
 <body>
 
-<h1>Senior Citizen Saving scheme (SCSS)</h1>
+<div class="topnav">
+  <h1><a href="index.html">Home</a></h1>
+  <h1><a href="blogs.html">Blogs</a></h1>
+ </div>
+<div class="row">
+  <div class="column leftside">
+     <p>
+         <img src="eqmf.jpg" alt="Pic not found" width=100%>
+    </p>
+  </div>
+  
+  <div class="column middle">
+    <h2>Senior Citizens Savings Scheme (SCSS)</h2>
 
-<div>
 <p>
 <b>Introduction:</b>
 Senior Citizens Savings Scheme (SCSS) is a government-backed savings instrument offered to Indian residents aged 60 years and over. The deposit matures after 5 years from the date of account opening but can be extended once by an additional 3 years.
